@@ -1,6 +1,7 @@
 sudo apt-get update
 sudo apt-get install python
-
+sudo apt-get install pip
+sudo apt-get install pip3
 
 pip  install gunicorn
 pip  install Flask
