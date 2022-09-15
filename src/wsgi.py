@@ -12,6 +12,4 @@ def hello_world():
 
 # 
 if __name__ == "__main__":
-    # app.run(debug=True, host="0.0.0.0", port=443,  ssl_context=('/app/src/server.crt', '/app/src/server.key') )
-    #app.run(debug=True, host="0.0.0.0", port=8080   )
-    app.run(debug=True, host="0.0.0.0", port=8443,  ssl_context=('./server.crt', './server.key') )
+    app.run(debug=True, host="0.0.0.0", port=443,  ssl_context=('./server.crt', './server.key') )
