@@ -13,6 +13,7 @@ def hello_world():
 
 @app.route("/health_check")
 def health_check():
+    print("/health_check")
     return "{}"
 
 if __name__ == "__main__":
